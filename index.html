@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shahar bo'lab sayohat</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./main css/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row pt-5">
+      <form class="form" action="https://echo.htmlacademy.ru">
+          <div class="row justify-content-center">
+            <div class="col-md-4 select">
+              <select class="form-select" aria-label="Default select example">
+                <option selected disabled hidden>Qaysi shaharga bormoqchisiz?</option>
+                <option value="Chilonzor">Chilonzor 10km</option>
+                <option value="Olmazor">Olmazor 12km</option>
+                <option value="Orikzor">Orikzor 9km</option>
+                <option value="Orikzor">Chorsu 1km</option>
+                <option value="Orikzor">Yakkasaroy tumani 15km</option>
+              </select>
+            </div>
+            <div class="col-md-4 input">
+              <input type="number" class="form-control input-form" placeholder="Masofani kiriting" aria-label="Enter the distance"
+                min="1" max="10000000000000000" required>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-info button">Aniqlash</button>
+      </form>
+      <div class="result-wrapper">
+        <div class="img-wrapper">
+          <p class="result"></p>
+          <img class="result-img" src="./images/running.svg" alt="running-person" width="100" height="100">
+        </div>
+        
+        <div class="img-wrapper">
+          <p class="result-two result"></p>
+          <img class="result-img" src="./images/bicycle.svg" alt="bicycle-img" width="100" height="100">
+        </div>
+
+        <div class="img-wrapper">
+          <p class="result-three result"></p>
+          <img class="result-img" src="./images/eco-car.svg" alt="car-img" width="100" height="100">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bgcolor"></div>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./main js/main.js"></script>
+</body>
+
+</html>
